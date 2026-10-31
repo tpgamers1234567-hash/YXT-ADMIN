@@ -7,16 +7,12 @@
     <title>7x 444- Play & Earn</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<!-- OneSignal Web SDK -->
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>
   window.OneSignalDeferred = window.OneSignalDeferred || [];
   OneSignalDeferred.push(async function(OneSignal) {
     await OneSignal.init({
-      appId: "fa5f804f-fae0-4d99-9b3e-dce4b4aa92ac,",
-      // নিচের লাইন দুটি আপনার /YXT-ADMIN/ পাথের জন্য জরুরি
-      serviceWorkerPath: "OneSignalSDKWorker.js",
-      serviceWorkerParam: { scope: "/YXT-ADMIN/" }
+      appId: "fa5f804f-fae0-4d99-9b3e-dce4b4aa92ac",
     });
   });
 </script>
